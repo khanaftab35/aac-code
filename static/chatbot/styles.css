@@ -1,0 +1,79 @@
+/* Add these styles to your existing <style> block or in a separate CSS file */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.input-group {
+    margin-top: 15px;
+}
+
+.form-control {
+    border-radius: 25px;
+}
+
+.custom-select {
+    border-radius: 25px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    border-radius: 25px;
+}
+
+.message-container {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.user-message {
+    align-self: flex-end;
+    margin: 5px; /* Add some margin to separate user messages */
+}
+
+.user-message span {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block; /* Display user message as an inline block */
+}
+
+
+
+
+
